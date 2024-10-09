@@ -1,0 +1,50 @@
+
+
+
+.sample__container {
+
+    width: 100%;
+    min-height: 100vh;
+    overflow-x: hidden;
+
+    
+    .red {
+        background: red;
+    }
+    .sample__content {
+
+        
+        .parallax {
+            
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: url('../../assets/img/pexels-photo-788946.webp') no-repeat;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+
+            img {
+                position: absolute;
+                top: 0;
+                right: 4rem;
+                height: 50rem;
+                /* width: 100%; */
+            }
+
+            /* #text {
+                position: absolute;
+            } */
+            
+        }
+
+        .text {
+            height: 100vh;
+        }
+
+
+      
+    }
+}
